@@ -1,0 +1,17 @@
+broker:
+  bootstrap-servers:
+    - localhost:9092
+
+broker2:
+  bootstrap-servers:
+    - localhost:9093
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,prometheus
+
+logging:
+  level:
+    root: INFO
