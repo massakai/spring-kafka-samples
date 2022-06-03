@@ -1,1 +1,2 @@
-rootProject.name = 'spring-kafka-sink'
+include 'spring-kafka-sink-1'
+
